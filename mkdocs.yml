@@ -1,0 +1,12 @@
+site_name: SecureService
+theme:
+  name: material
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - attr_list
+  - def_list
+  - meta
