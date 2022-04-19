@@ -30,7 +30,7 @@ This endpoint demotes the specified user.
 === "Luau/Lua 5.2"
     ```lua
     local HttpService = game:GetService("HttpService")
-    local URL = "http://node.justbillyh.xyz/api/demotte"
+    local URL = "http://node.justbillyh.xyz/api/demote"
     local function request()
 	local response = HttpService:RequestAsync(
 		{
